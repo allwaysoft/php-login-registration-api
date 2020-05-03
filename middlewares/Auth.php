@@ -35,7 +35,7 @@ class Auth extends JwtHandler{
         else:
             return null;
 
-        endif; // End of array_key_exists('Authorization',$this->headers) && !empty(trim($this->headers['Authorization']))
+        endif;
     }
 
     protected function fetchUser($user_id){
